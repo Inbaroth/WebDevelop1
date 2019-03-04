@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <TITLE>Inbar Roth</TITLE>
+  <META NAME = "keywords" CONTENT = "Webpage, design, HTML, 
+  tutorial, personal, help, index, form, contact, feedback,
+  list, links, frame, deitel, Inbar, Roth">
+
+<META NAME = "description" CONTENT = "This Web site is part of a project under Ben Gurion University course -Web Developing ">
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu">
+    <a href="#about">About Me</a>
+<a href="#photos">My Photos</a>
+<a href="#playlist">My Playlist</a>
+<a href="#like">Like</a>
+<a href="#qrcoder">QR code</a>
+<a href="#spa">Q&A</a>
+<a href="#contact">Contact Me</a>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+About Me
+<br/>
+My name is Inbar Roth and I am a Software and Information Systems Engineering student at Ben Gurion University.
+I am 3rd year student.
+<br/>
+Beside my degree which happened to be my main hobby, I like going to the beach, explore new places abroad, meet new coltures, and enjoy the amazing nature out there.
+<br/>
+In addition, I really love to hang out with friend and be around pepole every second of the day.
+<br/>
+Back to studying, my expections from "Web Developing Environments" is to be able to develop esthetic & easy to use websites which pepole who's less known with the web would love to use.
+<br/>
+I would like to expand my knowladge and be more quilifaied developer. 
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<br/>
+<br/>
+<br/>
+My Photos
+<br/>
+Here are some photos of places I've been privileged enough to visit
+<br/>
+<img src=sunset2.jpg width=300 height=300 />
+<img src=starfish.jpg width=300 height=300 />
+<img src=sunset.jpg width=300 height=300 />
+<img src=island.jpg width=300 height=300 />
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<br/>
+<br/>
+<br/>
+My Playlist
+<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=RDMM6U_5KhaH6IM&start_radio/6U_5KhaH6IM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<br/>
+<br/>
+<br/>
+give me a like
+<br/>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your like button code -->
+  <div class="fb-like" 
+    data-href="https://www.your-domain.com/your-page.html" 
+    data-layout="standard" 
+    data-action="like" 
+    data-show-faces="true">
+  </div>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+scan my code
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+ans
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+contact me
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
