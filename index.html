@@ -7,26 +7,28 @@
   list, links, frame, deitel, Inbar, Roth">
 
 <META NAME = "description" CONTENT = "This Web site is part of a project under Ben Gurion University course -Web Developing ">
-<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style2.css" />
 </head>
 <body>
         <div id="fb-root"></div>
         <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 <div id="menu">
-    <a href="#about">About Me</a>
-<a href="#photos">My Photos</a>
-<a href="#playlist">My Playlist</a>
-<a href="#like">Like</a>
-<a href="#qrcoder">QR code</a>
-<a href="#spa">Q&A</a>
-<a href="#contact">Contact Me</a>
+<li><a href="#about" class="active">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
 </div>
-		  
+  
+
+
 <section id="about" class="section">
 <br/>
 <br/>
 <br/>
-About Me
+   <h1> About Me</h1>
 <br/>
 My name is Inbar Roth and I am a Software and Information Systems Engineering student at Ben Gurion University.
 I am 3rd year student.
@@ -39,6 +41,8 @@ Back to studying, my expections from "Web Developing Environments" is to be able
 <br/>
 I would like to expand my knowladge and be more quilifaied developer. 
 <br/>
+My moto in life is - every day you learn something new.
+<br/>
 <br/>
 </section>
 
@@ -46,7 +50,7 @@ I would like to expand my knowladge and be more quilifaied developer.
 <br/>
 <br/>
 <br/>
-My Photos
+<h1>My Photos</h1>
 <br/>
 Here are some photos of places I've been privileged enough to visit
 <br/>
@@ -62,7 +66,7 @@ Here are some photos of places I've been privileged enough to visit
 <br/>
 <br/>
 <br/>
-My Playlist
+<h1>My Playlist</h1>
 <br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLdSSw3KzMjEb5cSHJeHP5zUCLDMzFo9UJ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br/>
@@ -73,7 +77,7 @@ My Playlist
 <br/>
 <br/>
 <br/>
-Like this page
+<h1>Like this page</h1>
 <br/>
 <br/>
 <!--<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Finbaroth.github.io%2FWebDevelop1%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>-->
@@ -87,7 +91,7 @@ Like this page
 <br/>
 <br/>
 <br/>
-Scan this page QR code
+<h1>Scan this page QR code</h1>
 <br/>
 <img src=QR.png width=300 height=300 />
 <br/>
@@ -98,9 +102,9 @@ Scan this page QR code
 <br/>
 <br/>
 <br/>
-Q&A
+<h1>Q&A</h1>
 <br/>
-1. 
+Comparing between web 1.0 2.0 3.0:
 <br/>
 <img src=webComparing.PNG width=500 height=500 />
 <br/>
@@ -114,7 +118,7 @@ Q&A
 <br/>
 <br/>
 <br/>
-Send an e-mail
+<h1>Send an e-mail</h1>
 <br/>
 <form action="mailto:Inbaroth1993@gmail.com" method="post" enctype="text/plain">
     Name:<br>
@@ -123,13 +127,12 @@ Send an e-mail
     <input type="text" name="mail"><br>
     Comment:<br>
     <input type="text" name="comment" size="50"><br><br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
+    <input type="submit" class=button value="Send">
+    <input type="reset"  class=button value="Reset">
     </form>
 <br/>
 <br/>
 </section>
-
 
 <script type="text/javascript">
 $(function(){
