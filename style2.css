@@ -51,7 +51,7 @@ h1:before {
   
   li a:hover {
 	background-color: #a6a6a6;
-	height: 16px;
+	height: 40px;
   }
 
   body{
@@ -65,7 +65,6 @@ h1:before {
 	text-align: center;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
 
 
 #about{
@@ -88,3 +87,10 @@ h1:before {
 	background-color: rgba(163, 162, 162, 0.877); 
 	color: white;
   }
+
+
+  #ans2{
+	text-align: left;
+}
+
+
