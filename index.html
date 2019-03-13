@@ -8,18 +8,25 @@
 
 <META NAME = "description" CONTENT = "This Web site is part of a project under Ben Gurion University course -Web Developing ">
 <link rel="stylesheet" type="text/css" href="style2.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
 </head>
 <body>
         <div id="fb-root"></div>
         <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
 <div id="menu">
-<li><a href="#about" class="active">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<li><a href="#about" class="active"><i class="fa fa-user-circle-o"></i> About Me</a></li>
+<li><a href="#photos"><i class="fa fa-picture-o"></i>My Photos</a></li>
+<li><a href="#playlist"><i class="fa fa-youtube-play"></i>My Playlist</a></li>
+<li><a href="#like"><i class="fa fa-thumbs-up"></i>Like</a></li>
+<li><a href="#qrcoder"><i class="fa fa-qrcode"></i>QR code</a></li>
+<li><a href="#spa"><i class="fa fa-question-circle"></i>Q&A</a></li>
+<li><a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact Me</a></li>
 </div>
   
 
@@ -54,10 +61,37 @@ My moto in life is - every day you learn something new.
 <br/>
 Here are some photos of places I've been privileged enough to visit
 <br/>
-<img src=sunset2.jpg width=300 height=300 />
-<img src=starfish.jpg width=300 height=300 />
-<img src=sunset.jpg width=300 height=300 />
-<img src=island.jpg width=300 height=300 />
+<div class="w3-content w3-display-container" style="max-width:800px">
+    <img class="mySlides" src="sunset.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="starfish.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="sunset2.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="island.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="whitsundays.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="riceFields.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="turtleApo.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="Palawan.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="Malapasqua.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="turtleMexico.jpg" style="width:100%" height=450>
+    <img class="mySlides" src="edenSenote.jpg" style="width:100%" height=450>
+
+    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(9)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(10)"></span>
+      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(11)"></span>
+    </div>
+  </div>
+<br/>
+&copy 2015-2019 Inbar Roth All Rights Reserved
 <br/>
 <br/>
 </section>
@@ -108,10 +142,26 @@ Comparing between web 1.0 2.0 3.0:
 <br/>
 <img src=webComparing.PNG width=500 height=500 />
 <br/>
-2.
 <br/>
-
+<p id="ans2">
+Comparing query results based on the Web generetion:
 <br/>
+The query: "Where can I buy costumes in Tel Aviv?"
+<br/>
+Web 1.0: probably we'll get static web sites with limited list of stores.
+<br/>
+In addition, most of the cases the results won't be accurate and it's better to search by given URL.
+<br/>
+Web 2.0: the results we'll be much more accurate and in high chances will contain sells web sites with changing content and opetions to "communicate" with the site by liking, chating etc.
+<br/>
+probably we'll get blogs and personal websites with recommendations, also we'll probably get talkbacks about the subject as results.
+<br/>
+Web 3.0: probably we'll get recommendations for stores selling costumes, and recommendations for websites selling costumes.
+<br/>
+Moreover, the results will come out way faster than in the previous generetions of the Web.
+<br/>
+In addition, probably the results we'll be close to other searches about the subject we ran before.
+</p>
 </section>
 
 <section id="contact" class="section">
@@ -133,6 +183,35 @@ Comparing between web 1.0 2.0 3.0:
 <br/>
 <br/>
 </section>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-white", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-white";
+    }
+    </script>
 
 <script type="text/javascript">
 $(function(){
