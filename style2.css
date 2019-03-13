@@ -31,7 +31,7 @@ h1:before {
 	  padding: 0;
 	  position: fixed;
 	  width: 100%;
-	  height: 60px;
+	  height: 40px;
 	  background-color: #66d9ff;
 	  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
@@ -51,7 +51,7 @@ h1:before {
   
   li a:hover {
 	background-color: #a6a6a6;
-	height: 60px;
+	height: 80px;
   }
 
   body{
